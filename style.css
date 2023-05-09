@@ -127,6 +127,71 @@ li {
   margin: 0 8px 5px 0;
 }
 
+
+.sec-3 {
+  padding: 5rem 0;
+  background: #fff;
+  border-top-right-radius: 140px;
+}
+
+.sec-4 {
+  background: #6070ff;
+  padding: 5rem 1rem;
+  border-top-left-radius: 5rem;
+  background-image: url(assets/contact\ form\ background\ shapes\ desktop.svg);
+}
+
+#about-myself {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#about-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#about-connect {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#about-resume {
+  color: #396df2;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#contact-me-btn {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#btn-contact {
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
 @media only screen and (min-width: 375px) {
   .first-container {
     background-image: url(./assets/header-background-mobile.svg);
@@ -184,72 +249,4 @@ li {
     font-size: 16px;
     line-height: 24px;
   }
-}
-
-.sec-3 {
-  padding: 5rem 0;
-  background: #fff;
-  border-top-right-radius: 140px;
-}
-
-.sec-4 {
-  background: #6070ff;
-  padding: 5rem 1rem;
-  border-top-left-radius: 5rem;
-  background-image: url(assets/contact\ form\ background\ shapes\ desktop.svg);
-}
-
-#about-myself {
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-#about-p {
-  //styleName: Body / 2;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-#about-connect {
-  color: #7f8cff;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-#about-resume {
-  color: #396df2;
-  background-color: white;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-
-#contact-me-btn {
-  color: #ffffff;
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-#btn-contact {
-  color: #6070ff;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
 }
