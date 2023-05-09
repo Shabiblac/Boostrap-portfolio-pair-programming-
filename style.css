@@ -58,13 +58,13 @@ li {
 /* Styling header section */
 
 .first-container {
-  background-image: url(./assets/Header_bg_desktop.svg);
-  background-position: center;
-  background-size: cover;
+  background-color: #fff;
   height: 100vh;
   width: 100%;
-  background-color: #fff;
-  border-bottom-left-radius: 140px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .first-container h1 {
@@ -194,12 +194,9 @@ li {
 
 @media only screen and (min-width: 375px) {
   .first-container {
-    background-image: url(./assets/header-background-mobile.svg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+    background-image: url(assets/header-shapes-mobile.svg);  
+    border-bottom-left-radius: 70px;  
+  } 
 
   .projects {
     padding: 0;
@@ -226,6 +223,11 @@ li {
 }
 
 @media only screen and (min-width: 768px) {
+  .first-container {
+    background-image: url(assets/Header_bg_desktop.svg);
+    border-bottom-left-radius: 140px;
+  }
+
   .projects {
     padding: 1em 1em;
   }
