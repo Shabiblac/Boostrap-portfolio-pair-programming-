@@ -48,4 +48,12 @@ body {
   width: 100%;
   background-color: #fff;
   border-bottom-left-radius: 140px;
+  /* flex-direction: column;
+  align-items: flex-start; */
 }
+
+/*
+.first-section{
+  display: flex;
+  justify-conten;
+} */
