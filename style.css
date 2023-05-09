@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+/* Navbar Styling with bootstraps */
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  background-color: #e5e5e5;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn {
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.navbar {
+  background: #fff !important;
+}
+
+.navbar .navbar-brand {
+  color: #6070ff !important;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("assets/menu.svg");
+}
+
+.navbar .navbar-nav li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  padding-right: 10px;
+}
+
+/* Styling header section */
+
+.first-container {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-container h1 {
+  margin-top: 4em;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.card-details .card-title {
+  color: #091e42;
+  font-weight: 700;
+}
+
+.card-details .card-list {
+  font-weight: 400;
+  align-items: center;
+  color: #6b778c;
+}
+
+.card-details .card-list li {
+  margin-right: 12px;
+}
+
+.card-details .tools li {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 8px 5px 0;
+}
+
+.card-details .card-list li:first-child {
+  text-transform: uppercase;
+  color: #344563;
+  font-weight: 500;
+}
+
+.card-details .card-list .card-list-space {
+  background: #c1c7d0;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.card-details .card-text {
+  font-weight: 400;
+}
+
+.card-details .tools {
+  padding-bottom: 24px;
+  padding-top: 12px;
+}
+
+.sec-3 {
+  padding: 5rem 0;
+  background: #fff;
+  border-top-right-radius: 140px;
+}
+
+.sec-4 {
+  background: #6070ff;
+  padding: 5rem 1rem;
+  border-top-left-radius: 5rem;
+  background-image: url(assets/contact\ form\ background\ shapes\ desktop.svg);
+}
+
+#about-myself {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+#about-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+#about-connect {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#about-resume {
+  color: #396df2;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#contact-me-btn {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+#btn-contact {
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 375px) {
+  .first-container {
+    background-image: url(assets/header-shapes-mobile.svg);
+    border-bottom-left-radius: 70px;
+  }
+
+  .projects {
+    padding: 0;
+  }
+
+  .project-card {
+    margin: 25px;
+  }
+
+  .card-details .card-title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .card-details .card-list {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card-details .card-text {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .first-container {
+    background-image: url(assets/Header_bg_desktop.svg);
+    border-bottom-left-radius: 140px;
+  }
+
+  .projects {
+    padding: 1em 1em;
+  }
+
+  .project-card {
+    margin: 50px;
+  }
+
+  .card-details .card-title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .card-details .card-list {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .card-details .card-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
