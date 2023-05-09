@@ -1,8 +1,41 @@
-/* Navbar Styling with bootstraps */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-.container-nav {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-around;
+/* Navbar Styling with bootstraps */
+body{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563; 
 }
+
+.navbar {
+  background: #fff !important;
+}
+
+.navbar .navbar-brand{ 
+  color: #6070FF !important;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.navbar .navbar-toggler{
+  border: none;
+}
+.navbar .navbar-toggler-icon{
+  background-image: url('assets/menu.svg');
+ 
+}
+
+.navbar .navbar-nav li{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  padding-right:10px;
+}
+
+
